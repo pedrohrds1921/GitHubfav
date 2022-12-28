@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#000000 ;
+    padding: 11.5rem 16rem;
+
+}
+#app{
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8.7rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.srOnly{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0px;
+
+}
+.search button{
+    display: flex;
+
+}
+.search input{
+    width: 46.2rem;
+    padding: 1.6rem;
+    background-color: #06181C ;
+    border-radius: .5rem;
+    border: none;
+    color: #FFFf;
+
+}
+
+.search button{
+    background: #065E7C;
+    padding: 1.2rem 3.2rem; 
+    border-radius: .5rem;
+    margin-left: .8rem;
+    display: flex;
+    align-items: center;
+    color: #FFFf;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: #FFFf;
+    color: #065E7C;
+}
+
+.search button svg{
+    margin-right: .8rem;
+}
+
+.search button:hover svg path{
+    fill: #065E7C;
+
+}
+
+table  .user img{
+    width:5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: -9px;
+}
+
+.table{
+    width: 100%;
+    max-height: 56.8rem;
+    color: #FFFf;
+    border: 1px solid #065E7C;
+    border-radius: .5rem;
+    font-size:2rem ;
+    background-color:#030B0D ;
+    position: relative;
+}
+
+.table .inner{
+    min-width: 100%;
+    display: flex;
+    height: 60rem;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    display: none;
+    
+  
+}
+.inner svg{
+    width: 190px;
+    height: 190px;
+}
+.inner p{
+    margin-left: 6rem;
+    font-size: 4rem;
+    color:#4E5455 ;
+    font-weight: 700;
+}
+table{
+    min-width: 100%;
+    
+    border-spacing: 0;
+}
+
+thead, tbody, tr, th, td { display: block; }
+
+
+
+thead{
+    color: #FFFf;
+    background-color:#092D38 ;
+    text-align: left;
+
+
+    width: 100%;
+    
+}
+
+tr:after { 
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+
+
+thead th:first-child{
+    border-top-left-radius: .5rem;
+}
+thead th:last-child{
+    border-top-right-radius: .5rem;
+}
+
+tbody td, thead th {
+    width: 25%;
+    float: left;
+    padding: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+table tbody{
+
+    max-height: 330px;
+    overflow-y: scroll;
+
+
+}
+
+ ::-webkit-scrollbar{
+    width: .9rem;
+    background-color:rgba(0, 0, 0, 0.99)
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0e2831;
+    border-radius: .5rem;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 20px;
+    background-color: #4E5455;
+
+}
+
+tbody tr td{
+    border-bottom: 1px solid #065E7C;
+    height:11rem ;
+
+    background-color:rgba(6, 22, 27, 0.5) ;
+}
+tbody tr:nth-child(even) td{
+    background-color: #06181C;
+}
+
+
+tbody tr:last-child td:nth-last-child(1){
+    border-bottom-right-radius: .5rem;
+}
+tbody tr:last-child td{
+    border-bottom: none;
+} 
+
+tbody tr:nth-last-child(1) td:nth-child(1){
+
+    border-bottom-left-radius: .5rem;
+
+}
+
+
+
+
+
+
+tbody tr .user a{
+    display: inline-block;
+   text-decoration: none;
+   color: #FFFf;
+ 
+
+   margin-left: 1.6rem;
+
+}
+tbody tr .user a p{
+    font-weight: 700;
+}
+
+tbody tr .user a span{
+    font-size: 1.6rem ;
+}
+
+
+.actionBtn button{
+    
+    border: none;
+    background-color: transparent;
+    color:  red;
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.actionBtn button:hover{
+    
+    
+    color:  rgb(255, 255, 255);
+    
+    
+}
+
+
+
+
